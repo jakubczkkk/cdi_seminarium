@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi_seminarium:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdi_seminarium</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdi_seminarium-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cdi_seminarium:war exploded" />
+    </root>
+  </artifact>
+</component>
